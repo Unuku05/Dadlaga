@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-w*w(2n3%rxb4nutk9-#&i+b=ft_vezkltj!ob#htn1zsztr8#+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.onrender.com']
 
 
 # Application definition
@@ -39,8 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     'rest_framework',
-    'ApiApp',
-    
+
 ]
 
 MIDDLEWARE = [
